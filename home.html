@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <link rel="stylesheet" href="home.css">
+    <title>Tough Clothing</title>
+</head>
+<body>
+    <section class="showcase ">
+      <header>
+        <h2 class="logo">Tough</h2>
+        <div class="toggle "></div>
+      </header>
+
+<video src="tshirt.mp4" muted loop autoplay></video>
+
+<div class="overlay"></div>
+
+<div class="text">
+    <h2>Tough Clothing</h2>
+    <h3>Be Tough! Wear Tough!</h3>
+    <p>Step into our clothing store and let the fabric
+        tell your story. Each thread weaves a tale of style,comfort, and confidence.
+        Come, explore our world of fashion, where every piece 
+        whispers a promise of beauty and authenticity.
+        <a href="products.php">Shop</a>
+    </p>
+</div>
+
+    </section>
+//menu 
+    <div class="menu">
+        <ul>
+            <li><a href="login.php">Login</a></li>
+            <li><a href="account.php">My Account</a></li>
+            <li><a href="aboutus.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="Contactpage.html">Contact</a></li>
+        </ul>
+    </div>
+
+
+    //java script 
+<script>
+    const menueToggle = document.querySelector('.toggle')
+    const showcase = document.querySelector('.showcase')
+
+    menueToggle.addEventListener('click', () => {
+    menueToggle.classList.toggle('active')
+    showcase.classList.toggle('active')
+})
+</script>
+</body>
+
+</html>

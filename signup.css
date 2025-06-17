@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'anta', sans-serif;
+}
+
+body{
+    background: url(background.jpg) no-repeat;
+    background-size: cover;
+
+
+    nav {
+        background-color:  #1e1b54;
+        text-align: right;
+        }
+        
+        nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        }
+        
+        nav ul li {
+        display: inline;
+        }
+        
+        nav ul li a {
+        display: inline-block;
+        padding: 20px;
+        text-decoration: none;
+        color: white;
+        }
+        
+        nav ul li a:hover {
+        background-color: #555;
+        }
+
+.loginform {
+    width: 350px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: black;
+}
+
+.loginform p{
+    font-size: 16px;
+    margin: 15px 0;
+}
+
+.loginform input{
+    font-size: 16px;
+    width: 100%;
+    padding: 15px 10px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+    background-color: rgb(171, 166, 166);
+}
+
+.loginform button{
+    font-size: 25px;
+    margin: 20px;
+}
+}
